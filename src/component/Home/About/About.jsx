@@ -8,19 +8,16 @@ const About = () => {
       <section className="Habout padding">
         <div className="container">
           <div className="left">
-            <img src="/images/abt.jpg" alt="" />
-            <img src="/images/abt2.jpg" alt="" />
+            <img src="/images/1.jpg" alt="" />
+            <img src="/images/2.jpg" alt="" />
           </div>
 
           <div className="Hright">
             <Heading title="Seraphic Hospital" subtitle="Welcome to" />
             <p>
-              Kelina Hospital is a Surgical Hospital where a patient can have a
-              major surgery today and go home same day or less than 24 hours
-              after surgery. Surgery is our primary work in Kelina. Our theatres
-              have the latest brands of equipment from the best companies in the
-              world. We have been consistently selected above other hospitals by
-              foreign medical missions in Nigeria.
+              We exist to bring people into the kingdom of God, awaken sleepers,
+              and make them mature church members. To equip them for their life
+              mission in the world in order to build and extend God's kingdom.
             </p>
             <a href="/services" className="btn_bg">
               Our Services

@@ -1,4 +1,5 @@
 import React from "react";
+import InnerHero from "../Common/InnerHero/InnerHero";
 
 const News = () => {
   const fetchNews = async () => {
@@ -9,7 +10,16 @@ const News = () => {
     console.log(response);
   };
   fetchNews();
-  return <div>News</div>;
+  return (
+    <div>
+      <InnerHero
+        name="Our Services"
+        title="News we Broadcast"
+        cover="public/images/hero3.jpg"
+      />
+      News
+    </div>
+  );
 };
 
 export default News;

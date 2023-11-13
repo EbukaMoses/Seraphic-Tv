@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import ReactPlayer from "react-player";
 import "./Youtube.css";
 
-const Youtube = ({ embedId }) => (
+const Youtube = () => (
   <>
     <section className="youtube padding">
       <div className="container grid video-responsive">

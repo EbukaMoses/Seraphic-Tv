@@ -6,7 +6,7 @@ import "./Services.css";
 const Services = () => {
   return (
     <div>
-      <InnerHero name="Our Services" title="News we Broadcast" cover={img} />
+      <InnerHero name="Our Services" title="News we Broadcast" cover="public/images/hero3.jpg" />
       {/* <Founder /> */}
       <h1 className="text">Loading..</h1>
     </div>

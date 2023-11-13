@@ -9,9 +9,9 @@ const ServiceCard = ({ icon, title, text }) => {
           <span className="icon">{icon}</span>
           <h3>{title}</h3>
           <p>{text.slice(0, 150)}</p>
-          <a href="">
+          {/* <a href="">
             Learn More&nbsp; <i class="fa-solid fa-arrow-right"></i>
-          </a>
+          </a> */}
         </div>
       </div>
       {/* </div> */}

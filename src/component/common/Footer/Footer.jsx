@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="container">
           <div className="box">
             <div className="logo">
-              <img src="/images/SERAPHICLOGO.png" alt="" />
+              <img src="/images/logo.png" alt="" />
               {/* <h2>Do You Need Help With Anything?</h2> */}
               <p>
                 We are a consistently patient-first, world-class healthcare
@@ -18,14 +18,12 @@ const Footer = () => {
               <div className="contact">
                 <span>
                   <i class="fa-solid fa-phone"></i>&nbsp;&nbsp;
-                  <a href="tel:2347030303030">07030303030</a>
+                  <a href="tel:2347030303030"> 08103212435</a>
                 </span>
-                <span>
+                {/* <span>
                   <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;
-                  <a href="mailto:info@seraphichospital.com">
-                    seraphichospital.com
-                  </a>
-                </span>
+                  <a href="mailto:">seraphictv.com</a>
+                </span> */}
               </div>
               <div className="social">
                 <a title="Facebook" href="" target="_blank" class="facebook">
@@ -50,11 +48,11 @@ const Footer = () => {
                 <a href="">Our Services</a>
               </li>
               <li>
-                <a href="">Our Doctors</a>
+                <a href="">Our Founder</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="">Our Gallery</a>
-              </li>
+              </li> */}
               <li>
                 <a href="">Contact Us</a>
               </li>
@@ -62,6 +60,27 @@ const Footer = () => {
             </ul>
           </div>
           <div className="box">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href="">About us</a>
+              </li>
+              <li>
+                <a href="">Our Services</a>
+              </li>
+              <li>
+                <a href="">Our Founder</a>
+              </li>
+              {/* <li>
+                <a href="">Our Gallery</a>
+              </li> */}
+              <li>
+                <a href="">Contact Us</a>
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          {/* <div className="box">
             <h3>Quick Links</h3>
             <ul>
               <li>
@@ -80,7 +99,7 @@ const Footer = () => {
                 <a href="">Contact Us</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </footer>
       <div className="legal">

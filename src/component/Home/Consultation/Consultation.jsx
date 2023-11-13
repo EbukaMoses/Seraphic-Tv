@@ -1,15 +1,18 @@
-import React from 'react'
+import React from "react";
 import "./Consultation.css";
-import ConsultationCard from './ConsultationCard';
-import Heading from './../../Common/Heading';
+import ConsultationCard from "./ConsultationCard";
+import Heading from "./../../Common/Heading";
 
 const Consultation = () => {
   return (
     <>
       <section className="consultation padding">
-        <Heading title="Routine Consultation" subtitle="Consultation" />
+        <Heading title="Our News" subtitle="" />
         <div className="container flex2">
-          <div className="img"></div>
+          <center>
+            <h1>Loading...</h1>
+          </center>
+          {/* <div className="img"></div>
 
           <div className="boxes">
             <div className="flex2">
@@ -36,11 +39,11 @@ const Consultation = () => {
                 text="24 Hours"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
   );
-}
+};
 
-export default Consultation
+export default Consultation;

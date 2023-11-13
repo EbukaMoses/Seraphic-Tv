@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutDetail.css";
-import image from "/images/hero.jpg";
+// import image from "public/images/hero3.jpg";
 
 const AboutDetail = () => {
   return (
@@ -8,20 +8,14 @@ const AboutDetail = () => {
       <section className="AboutDetail padding">
         <div className="container flex">
           <div className="img">
-            <img src={image} alt="" />
+            <img src="public/images/hero3.jpg" alt="" />
           </div>
           <div className="details">
-            <h2>About Seraphic TV</h2>
+            <h2> --About Seraphic TV</h2>
             <p>
-              Kelina Hospital opened in Abuja in February 2008. Lagos branch
-              became necessary because of the high volume of patients that were
-              visiting Abuja from Lagos in preference for the specialized
-              services Kelina was offering. The hospital’s core values recognize
-              the principle that helping our fellow man is service to God, and
-              we commit to this service knowing that each patient satisfactorily
-              cared for is a testimony to the effectiveness of our stewardship.
-              This is our motivation for joining hands with you in ‘taking your
-              health to heart’.
+              We exist to bring people into the kingdom of God, awaken sleepers,
+              and make them mature church members. To equip them for their life
+              mission in the world in order to build and extend God's kingdom.
             </p>
           </div>
         </div>
