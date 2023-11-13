@@ -1,0 +1,24 @@
+.AboutDetail .img {
+  width: 200%;
+}
+/* .AboutDetail .details {
+  width: 100%;
+} */
+.AboutDetail .details h2 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #0000ba;
+}
+.AboutDetail .details {
+  margin-left: 5%;
+}
+@media screen and (max-width: 906px) {
+  .AboutDetail .flex {
+    flex-direction: column;
+  }
+  .AboutDetail .img {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}
